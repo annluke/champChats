@@ -4,6 +4,7 @@ body {
     background-color: #262C36;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
 }
 header {
     background-color: #232323;
@@ -24,15 +25,15 @@ footer {
     font-style: italic;
     text-align: left;
     float: left;
-    height: 30px;
-    width: 50px;
+    height: 52px;
+    width: 100px;
     margin-left: 145px;
-    font-size: 20px;
+    font-size: 23px;
 }
 #main-menu {
     list-style-type: none;
     display: inline;
-    margin: 0;
+    margin: 0 122px;
     padding: 5px;
     overflow: hidden;
     float: right;
@@ -48,7 +49,8 @@ li a {
     text-decoration: none;
 }
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #C8C8C8;
+    color: #213241;
 }
 .orange {
     color: orange;
@@ -74,7 +76,7 @@ li a:hover:not(.active) {
 #hangout-benefits {
     width: 590px;
     display: inline-block;
-    padding: 10px 195px;
+    padding: 10px 205px;
     background: gray;
 }
 #desc {
@@ -84,7 +86,7 @@ li a:hover:not(.active) {
 #hangout {
     width: 780px;
     display: inline-block;
-    padding: 45px 100px;
+    padding: 45px 110px;
     background: #5F6065;
     height: 43px;
 }
@@ -92,32 +94,30 @@ li a:hover:not(.active) {
     background: #000;
     height: 30px;
     width: 10px;
-    padding:15px 5px;
+    padding: 15px 5px;
     font-size: 25px;
     border-radius: 2px;
     font-weight: bold;
-    text-decoration: line-through black;
 }
 .separator {
     padding: 14px;
-    margin-left: 154px;
+    margin-left: 146px;
 }
 .spec {
     padding-left: 10px;
     height: 30px;
     width: 10px;
-    padding: 8px;
+    padding: 7px;
     font-size: 10px;
 }
 .inner {
-    padding-left: 20px;
     float: left;
-    width: 350px;
+    width: 50%;
 }
 #note {
     width: 870px;
     display: inline-block;
-    padding: 10px 55px;
+    padding: 10px 65px;
     background: #34517E;
     height: 43px;
     margin: 10px;
@@ -134,10 +134,10 @@ li a:hover:not(.active) {
 }
 #img {
     margin-top: 28px;
-    margin-left: 62px;
+    margin-left: 44px;
     float: left;
-    width: 123px;
-    height: 92px;
+    width: 180px;
+    height: 158px;
 }
 #kobe-img {
     width: 180px;
@@ -146,37 +146,36 @@ li a:hover:not(.active) {
 }
 #img-txt {
     position: absolute;
-    bottom: 173px;
-    left: 105px;
+    bottom: 152px;
+    left: 85px;
     font-weight: bold;
 }
 #details-heading {
     font-size: 16px;
-    margin-right: 70px;
+    margin-right: 125px;
 }
-#title-menu {
+#details-menu {
     list-style-type: none;
-    text-align: right;
     float: left;
-    margin-top: 6px;
-    margin-left: 37px;
+    margin-top: 0;
+    width: 400px;
+    line-height: 25px;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.title-items {
+    width: 155px;
+    text-align: right;
     color: #C8C8C8;
     font-size: 13px;
+    display: block;
+    float: left;
 }
-.title-menu-items {
-    padding-bottom: 11px;
-}
-#desc-menu {
-    list-style-type: none;
-    width: 240px;
+.desc-items {
+    width: 235px;
     text-align: left;
     float: left;
-    margin-left: -36px;
-    margin-top: 1px;
-    margin-bottom: 0;
-}
-.desc-menu-items {
-    padding: 5px;
+    padding-left: 10px;
 }
 #donation {
     width: 38%;
@@ -193,8 +192,8 @@ li a:hover:not(.active) {
     margin: 0 86px 17px;
 }
 #criteria {
-    margin-left: 396px;
-    margin-top: 175px;
+    margin-left: 392px;
+    margin-top: 170px;
     text-align: left;
     height: 35px;
     font-size: 12px;
@@ -209,9 +208,10 @@ li a:hover:not(.active) {
 }
 .footer-menu {
     list-style-type: none;
-    margin: 0;
+    margin: 0 75px;
     font-size: 14px;
 }
 #footer-content {
     float: right;
+    margin-right: 122px;
 }
