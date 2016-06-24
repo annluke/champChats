@@ -4,21 +4,32 @@ body {
     background-color: #262C36;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+<<<<<<< HEAD
 }
 header {
     background-color: #232323;
     color: #fff;
+=======
+    word-wrap: break-word;
+}
+header {
+    background-color: #232323;
+>>>>>>> feature
     padding: 1px;
     height: 50px;
     font-size: 14px;
 }
 footer {
     background-color: #213241;
+<<<<<<< HEAD
     color: #fff;
+=======
+>>>>>>> feature
     clear: both;
     padding: 4px;
     height: 45px;
 }
+<<<<<<< HEAD
 #logo {
     font-weight: bold;
     font-style: italic;
@@ -28,25 +39,48 @@ footer {
     width: 50px;
     margin-left: 145px;
     font-size: 20px;
+=======
+#border-content {
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+}
+#logo {
+    font-style: italic;
+    text-align: left;
+    float: left;
+    height: 52px;
+    width: 100px;
+    margin-top: 0;
+    font-size: 23px;
+>>>>>>> feature
 }
 #main-menu {
     list-style-type: none;
     display: inline;
     margin: 0;
     padding: 5px;
+<<<<<<< HEAD
     overflow: hidden;
+=======
+>>>>>>> feature
     float: right;
 }
 .menu-items {
     float: left;
 }
+<<<<<<< HEAD
 li a {
+=======
+.nav-items {
+>>>>>>> feature
     display: block;
     color: #fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
+<<<<<<< HEAD
 li a:hover:not(.active) {
     background-color: #111;
 }
@@ -54,6 +88,16 @@ li a:hover:not(.active) {
     color: orange;
 }
 .blue {
+=======
+.nav-items:hover:not(.active) {
+    background-color: #C8C8C8;
+    color: #213241;
+}
+.highlighter {
+    color: orange;
+}
+.section-title {
+>>>>>>> feature
     color: #4676C0;
 }
 .active {
@@ -65,26 +109,48 @@ li a:hover:not(.active) {
     width: 80%;
     height: 80%;
     margin: auto;
+<<<<<<< HEAD
     position: relative;
+=======
+>>>>>>> feature
     text-align: center;
 }
 #container-heading {
     font-size: 20px;
+<<<<<<< HEAD
 }
 #hangout-benefits {
     width: 590px;
     display: inline-block;
     padding: 10px 195px;
     background: gray;
+=======
+    font-weight: bold;
+    padding: 5px;
+}
+#hangout-benefits {
+    width: 620px;
+    display: inline-block;
+    padding: 10px 205px;
+    margin: 0;
+    background: gray;
+    font-weight: bold;
+>>>>>>> feature
 }
 #desc {
     font-size: 18px;
     padding: 11px;
 }
 #hangout {
+<<<<<<< HEAD
     width: 780px;
     display: inline-block;
     padding: 45px 100px;
+=======
+    width: 810px;
+    display: inline-block;
+    padding: 45px 110px;
+>>>>>>> feature
     background: #5F6065;
     height: 43px;
 }
@@ -92,6 +158,7 @@ li a:hover:not(.active) {
     background: #000;
     height: 30px;
     width: 10px;
+<<<<<<< HEAD
     padding:15px 5px;
     font-size: 25px;
     border-radius: 2px;
@@ -101,11 +168,22 @@ li a:hover:not(.active) {
 .separator {
     padding: 14px;
     margin-left: 154px;
+=======
+    padding: 15px 5px;
+    font-size: 25px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.separator {
+    padding: 14px;
+    margin-left: 146px;
+>>>>>>> feature
 }
 .spec {
     padding-left: 10px;
     height: 30px;
     width: 10px;
+<<<<<<< HEAD
     padding: 8px;
     font-size: 10px;
 }
@@ -121,11 +199,29 @@ li a:hover:not(.active) {
     background: #34517E;
     height: 43px;
     margin: 10px;
+=======
+    padding: 7px;
+    font-size: 10px;
+}
+.inner {
+    float: left;
+    width: 50%;
+}
+#note {
+    width: 900px;
+    display: inline-block;
+    padding: 10px 65px;
+    background: #34517E;
+    height: 43px;
+    margin-top: 10px;
+    font-weight: bold;
+>>>>>>> feature
 }
 #notify {
     font-size: 13px;
     margin-top: 0;
     margin-bottom: 30px;
+<<<<<<< HEAD
 }
 #details {
     width: 62%;
@@ -195,11 +291,78 @@ li a:hover:not(.active) {
 #criteria {
     margin-left: 396px;
     margin-top: 175px;
+=======
+    font-weight: bold;
+}
+#details {
+    width: 70%;
+    float: left;
+    font-size: 14px;
+}
+#kobe-img {
+    width: 180px;
+    height: 157px;
+    border-radius: 50%;
+    float: left;
+    background-image: url("kobe.png");
+    background-size: 100% 100%;
+    margin: 20px;
+}
+#img-txt {
+    font-weight: bold;
+    margin-top: 125px;
+}
+#details-heading {
+    width: 45%;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+#details-menu {
+    list-style-type: none;
+    float: left;
+    width: 60%;
+    line-height: 25px;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 10px;
+}
+.title-items {
+    width: 155px;
+    text-align: right;
+    color: #C8C8C8;
+    font-size: 13px;
+    display: block;
+    float: left;
+}
+.desc-items {
+    width: 235px;
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+}
+#donation {
+    width: 30%;
+    float: right;
+    font-weight: bold;
+}
+.donation-box {
+    border: 2px solid orange;
+    width: 80%;
+    padding: 9px;
+    font-size: 14px;
+    margin: 0 20px 17px;
+}
+#criteria {
+    margin-left: 392px;
+    margin-top: 170px;
+>>>>>>> feature
     text-align: left;
     height: 35px;
     font-size: 12px;
     font-style: italic; 
     color: #C8C8C8;
+<<<<<<< HEAD
 }
 #read {
     clear: both;
@@ -214,4 +377,26 @@ li a:hover:not(.active) {
 }
 #footer-content {
     float: right;
+=======
+    clear: left;
+}
+#read {
+    clear: both;
+    margin-bottom: 60px;
+    padding-top: 50px;
+    font-size: 14px;
+}
+#footer-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    font-size: 14px;
+}
+#footer-list {
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    font-size: 14px;
+>>>>>>> feature
 }
