@@ -8,54 +8,55 @@ body {
 }
 header {
     background-color: #232323;
-    color: #fff;
     padding: 1px;
     height: 50px;
     font-size: 14px;
 }
 footer {
     background-color: #213241;
-    color: #fff;
     clear: both;
     padding: 4px;
     height: 45px;
 }
+#border-content {
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+}
 #logo {
-    font-weight: bold;
     font-style: italic;
     text-align: left;
     float: left;
     height: 52px;
     width: 100px;
-    margin-left: 145px;
+    margin-top: 0;
     font-size: 23px;
 }
 #main-menu {
     list-style-type: none;
     display: inline;
-    margin: 0 122px;
+    margin: 0;
     padding: 5px;
-    overflow: hidden;
     float: right;
 }
 .menu-items {
     float: left;
 }
-li a {
+.nav-items {
     display: block;
     color: #fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-li a:hover:not(.active) {
+.nav-items:hover:not(.active) {
     background-color: #C8C8C8;
     color: #213241;
 }
-.orange {
+.highlighter {
     color: orange;
 }
-.blue {
+.section-title {
     color: #4676C0;
 }
 .active {
@@ -67,24 +68,27 @@ li a:hover:not(.active) {
     width: 80%;
     height: 80%;
     margin: auto;
-    position: relative;
     text-align: center;
 }
 #container-heading {
     font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
 }
 #hangout-benefits {
-    width: 590px;
+    width: 620px;
     display: inline-block;
     padding: 10px 205px;
+    margin: 0;
     background: gray;
+    font-weight: bold;
 }
 #desc {
     font-size: 18px;
     padding: 11px;
 }
 #hangout {
-    width: 780px;
+    width: 810px;
     display: inline-block;
     padding: 45px 110px;
     background: #5F6065;
@@ -115,53 +119,52 @@ li a:hover:not(.active) {
     width: 50%;
 }
 #note {
-    width: 870px;
+    width: 900px;
     display: inline-block;
     padding: 10px 65px;
     background: #34517E;
     height: 43px;
-    margin: 10px;
+    margin-top: 10px;
+    font-weight: bold;
 }
 #notify {
     font-size: 13px;
     margin-top: 0;
     margin-bottom: 30px;
+    font-weight: bold;
 }
 #details {
-    width: 62%;
+    width: 70%;
     float: left;
     font-size: 14px;
-}
-#img {
-    margin-top: 28px;
-    margin-left: 44px;
-    float: left;
-    width: 180px;
-    height: 158px;
 }
 #kobe-img {
     width: 180px;
     height: 157px;
-    border-radius: 50%
+    border-radius: 50%;
+    float: left;
+    background-image: url("kobe.png");
+    background-size: 100% 100%;
+    margin: 20px;
 }
 #img-txt {
-    position: absolute;
-    bottom: 152px;
-    left: 85px;
     font-weight: bold;
+    margin-top: 125px;
 }
 #details-heading {
+    width: 45%;
+    float: left;
     font-size: 16px;
-    margin-right: 125px;
+    font-weight: bold;
 }
 #details-menu {
     list-style-type: none;
     float: left;
-    margin-top: 0;
-    width: 400px;
+    width: 60%;
     line-height: 25px;
-    margin-bottom: 0;
-    padding-left: 0;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 10px;
 }
 .title-items {
     width: 155px;
@@ -178,18 +181,16 @@ li a:hover:not(.active) {
     padding-left: 10px;
 }
 #donation {
-    width: 38%;
+    width: 30%;
     float: right;
-}
-#donation-heading {
-    margin-left: 24px;
+    font-weight: bold;
 }
 .donation-box {
     border: 2px solid orange;
-    width: 220px;
+    width: 80%;
     padding: 9px;
     font-size: 14px;
-    margin: 0 86px 17px;
+    margin: 0 20px 17px;
 }
 #criteria {
     margin-left: 392px;
@@ -199,19 +200,24 @@ li a:hover:not(.active) {
     font-size: 12px;
     font-style: italic; 
     color: #C8C8C8;
+    clear: left;
 }
 #read {
     clear: both;
-    margin-bottom: 62px;
-    padding-top: 65px;
+    margin-bottom: 60px;
+    padding-top: 50px;
     font-size: 14px;
 }
-.footer-menu {
+#footer-menu {
     list-style-type: none;
-    margin: 0 75px;
+    margin: 0;
+    padding: 0;
+    float: left;
     font-size: 14px;
 }
-#footer-content {
+#footer-list {
+    list-style-type: none;
     float: right;
-    margin-right: 122px;
+    margin: 0;
+    font-size: 14px;
 }
