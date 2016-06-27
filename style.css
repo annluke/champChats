@@ -9,7 +9,7 @@ body {
 header {
     background-color: #232323;
     padding: 1px;
-    height: 50px;
+    height: 60px;
     font-size: 14px;
 }
 footer {
@@ -29,14 +29,14 @@ footer {
     float: left;
     height: 52px;
     width: 100px;
-    margin-top: 0;
+    margin-top: 4px;
     font-size: 23px;
 }
 #main-menu {
     list-style-type: none;
     display: inline;
     margin: 0;
-    padding: 5px;
+    padding: 10px 0;
     float: right;
 }
 .menu-items {
@@ -59,9 +59,9 @@ footer {
 .section-title {
     color: #4676C0;
 }
-.active {
+.nav-items-active {
     border-bottom: 2px solid orange;
-    padding-bottom: 11px;
+    padding-bottom: 19px;
     font-weight: bold;
 }
 #container {
@@ -76,9 +76,8 @@ footer {
     padding: 5px;
 }
 #hangout-benefits {
-    width: 620px;
-    display: inline-block;
-    padding: 10px 205px;
+    width: 100%;
+    padding: 10px 0;
     margin: 0;
     background: gray;
     font-weight: bold;
@@ -87,12 +86,26 @@ footer {
     font-size: 18px;
     padding: 11px;
 }
-#hangout {
-    width: 810px;
-    display: inline-block;
-    padding: 45px 110px;
+#hangout-start-container {
+    width: 100%;
+    padding: 45px 0;
     background: #5F6065;
     height: 43px;
+}
+.hangout-section {
+    float: left;
+    width: 45%;
+    padding-left: 45px;
+}
+.hangout-section-head {
+    width: 40%;
+    font-weight: bold;
+    float: left;
+}
+.hangout-section-counter {
+    display: block;
+    width: 50px;
+    float: left;
 }
 .box {
     background: #000;
@@ -103,24 +116,16 @@ footer {
     border-radius: 2px;
     font-weight: bold;
 }
-.separator {
-    padding: 14px;
-    margin-left: 146px;
-}
 .spec {
-    padding-left: 10px;
-    height: 30px;
-    width: 10px;
-    padding: 7px;
+    height: 15px;
+    width: 35px;
     font-size: 10px;
-}
-.inner {
     float: left;
-    width: 50%;
+    padding-left: 7px;
+    padding-top: 19px;
 }
 #note {
     width: 900px;
-    display: inline-block;
     padding: 10px 65px;
     background: #34517E;
     height: 43px;
@@ -138,7 +143,7 @@ footer {
     float: left;
     font-size: 14px;
 }
-#kobe-img {
+#kobe-bryant {
     width: 180px;
     height: 157px;
     border-radius: 50%;
@@ -167,7 +172,7 @@ footer {
     padding-left: 10px;
 }
 .title-items {
-    width: 155px;
+    width: 165px;
     text-align: right;
     color: #C8C8C8;
     font-size: 13px;
@@ -193,20 +198,21 @@ footer {
     margin: 0 20px 17px;
 }
 #criteria {
-    margin-left: 392px;
-    margin-top: 170px;
+    width: 250px;
     text-align: left;
     height: 35px;
     font-size: 12px;
     font-style: italic; 
     color: #C8C8C8;
     clear: left;
+    float: right;
+    margin-right: 65px;
 }
 #read {
     clear: both;
-    margin-bottom: 60px;
-    padding-top: 50px;
-    font-size: 14px;
+    padding-top: 45px;
+    font-size: 13px;
+    height: 70px;
 }
 #footer-menu {
     list-style-type: none;
